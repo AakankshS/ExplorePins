@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Travel Website</title>
+
+
+        <style>
+            .gradient-background {
+          background:pink;
+          
+          animation: gradient-animation 18s ease infinite;
+        }
+        
+        @keyframes gradient-animation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+        body 
+                {
+                    margin: 0;
+                    font-family: 'Arial', sans-serif;
+                    
+                }
+        
+                
+                header 
+                {
+                    background-color: black;
+                    color: white;
+                    padding: 15px;
+                }
+        
+            
+                .logo img 
+                {
+                    height: 100px; /* Adjust the height as needed */
+                }
+        
+                
+                
+                section 
+                {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    padding: 20px;
+                }
+        
+                .food-item 
+                {
+                    width: 300px;
+                    margin: 20px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                .food-item img 
+                {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+        
+                .food-info 
+                {
+                    padding: 15px;
+                }
+               img{
+                mix-blend-mode: multiply;
+               }
+            
+            
+        
+                
+        
+        
+        
+          </style>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">ExplorePins</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="C:\Users\Asmi Rode\Desktop\ExplorePins\responsive-travel-website-main\index.html" class="nav__link ">Home</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link active-link">Sightseeing Spots</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="C:\Users\Asmi Rode\Desktop\ExplorePins\responsive-travel-website-main\assets\img\rio_ big.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover</span>
+                        <h1 class="home__data-title"><b>Rio de Janeiro</b></h1>
+                        <!--a href="#" class="button">Explore</a-->
+
+                    </div>
+
+            </section>
+
+            <section class="experience section">
+                <h2 class="section__title">We have found the best locations<br>for you to visit !</h2></section>
+
+            <section>
+                <div class="food-item" id="Spots">
+                    <img src="C:\Users\Asmi Rode\Desktop\ExplorePins\responsive-travel-website-main\assets\img\copacabana.jpg" alt="Range Rover Vogue">
+                    <div class="food-info">
+                        <h3>Copacabana Beach</h3>
+                        <p>Beach</p>
+                        <p>Duration:2 to 3 Hrs</p>
+                        <p><b>“This place is beautiful. White sand good waves at the eastern point. People watchers paradise. Food choices galore, museums, close to Centro and Ipanema. It has its own metro.
+                            The bars on the waterfront are a rip off. Got charged 30 percent service charge. Go to the streets away from the beach for cheap prices and good food too. Also tourist ATMs are located at the Metro station and Riosur shopping centre. Don't use the 24hr ones at the beach."
+                            </b></p>
+                    </div>
+                </div>
+        
+                <div class="food-item">
+                    <img src="C:\Users\Asmi Rode\Desktop\ExplorePins\responsive-travel-website-main\assets\img\maracana-stadion.jpg" alt="911 GT3 RS">
+                    <div class="food-info">
+                        <h3>Maracanã</h3>
+                        <p>Arena/Stadium</p>
+                        <p>Duration:2 Hrs</p>
+                        <p><b>"Exceptional
+                            Travel to Rio for my bday, Maracana stadium was our first stop, it did not disappoint, I highly recommend. Get you ticket/s ahead with skip the line really helped facilitating our entrance "
+                        </b></p>
+                    </div>
+                </div>
+        
+                <div class="food-item">
+                    <img src="C:\Users\Asmi Rode\Desktop\ExplorePins\responsive-travel-website-main\assets\img\escadaria-selaron.jpg" alt="Ferrari SF90">
+                    <div class="food-info">
+                        <h3>Escadaria Selarón</h3>
+                        <p>Landmarks</p>
+                        <p>Duration:< 1 Hr</p>
+                        <p><b>No reviews yet.</b></p>
+                    </div>
+                </div>
+        
+                
+                </section>
+
+
+
+
+
+        <footer class="footer section"></footer>
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">ExplorePins</h3>
+                        
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 ExplorePins. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>   
